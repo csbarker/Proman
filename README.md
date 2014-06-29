@@ -28,4 +28,6 @@ The [MoSCoW](http://en.wikipedia.org/wiki/MoSCoW_method) breakdown for v1 is as 
 ![User Dashboard](/_misc/mockups/user-dashboard.png?raw=true "User Dashboard")
 
 #### Project Dashboard
+![Project Dashboard](/_misc/mockups/project-dashboard.png?raw=true "Project Dashboard")
+
 #### Admin Dashboard
