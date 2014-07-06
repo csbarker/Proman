@@ -2,7 +2,7 @@
 PROMAN is a minimal project management system built in Ruby on Rails.
 
 ###Current Todos
-* [ ] Mockups
+* [x] Mockups
 * [ ] Styleguide
 * [ ] Mockups to HTML
 
@@ -24,13 +24,14 @@ The [MoSCoW](http://en.wikipedia.org/wiki/MoSCoW_method) breakdown for v1 is as 
  
 ### Mockups
 
-#### User Dashboard
-![User Dashboard](/_misc/mockups/user-dashboard.png?raw=true "User Dashboard")
+#### User Area
+![Home](/_misc/mockups/user-dashboard.png?raw=true "User Dashboard")
 
-#### Project Dashboard
-![Project Dashboard](/_misc/mockups/project-dashboard.png?raw=true "Project Dashboard")
+![Project](/_misc/mockups/project-dashboard.png?raw=true "Project Dashboard")
 
-#### Admin Dashboard
+![Settings](/_misc/mockups/user-settings.png?raw=true "User Settings")
+
+#### Admin Area
 ![Dashboard](/_misc/mockups/admin-dashboard.png?raw=true "Admin Dashboard")
 
 ![Users](/_misc/mockups/admin-users.png?raw=true "Admin > Users")
