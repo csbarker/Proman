@@ -1,0 +1,132 @@
+HTML, BODY
+{
+	height: 100%;
+}
+#wrapper
+{
+	margin: 0 auto;
+	height: 100%;
+}
+#sidebar, #content
+{
+	float: left;
+}
+#sidebar
+{
+	background: #191818;
+	color: #999999;
+	width: 20%;
+	min-height: 100%;
+	height: 100%;
+}
+#sidebar .logo
+{
+	text-align: center;
+	margin: 1em 0;
+}
+#sidebar .navigation
+{
+	list-style: none;
+	padding: 0;
+}
+#sidebar .item
+{
+	line-height: 40px;
+	border-bottom: 1px solid #2E2E2E;
+	margin: 0 1.5em;
+}
+#sidebar .item .fa
+{
+	font-size: 1.5em;
+	margin-right: 0.3em;
+}
+#sidebar .item A
+{
+	color: #999999;
+	text-decoration: none;
+}
+#sidebar .active
+{
+	border-left: 3px solid #F33030;
+	padding: 0 1.5em;
+	background: #242424;
+	border-bottom: none;
+	margin: 0px;
+}
+#sidebar .active A
+{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 600;
+}
+#content
+{
+	width: 80%;
+	background: #DFDFDF;
+	height: 100%;
+}
+#content .header
+{
+	background: #FFF;
+	margin-top: 0px;
+	overflow: hidden;
+	height: 80px;
+}
+#content .header H1
+{
+	float: left;
+	margin: 0px 1em;
+	line-height: 80px;
+	font-size: 40px;
+}
+#content .header UL
+{
+	float: right;
+	margin-right: 1em;
+	list-style: none;
+}
+#content .header UL A
+{
+	background: #F33030;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 15px;
+	line-height: 50px;
+}
+#content .body H2
+{
+	margin: 0.5em 1.3em;
+	font-size: 30px;
+	color: #666;
+}
+#content .recent_projects
+{
+	list-style: none;
+}
+#content .recent_projects IMG
+{
+	width: 90%;
+}
+#content .recent_projects LI
+{
+	float: left;
+	width: 33%;
+}
+#content .recent_projects .brief
+{
+	margin-top: 1em;
+}
+#content .recent_projects .title
+{
+	font-weight: 600;
+}
+#content .recent_projects .date
+{
+	margin-left: 5px;
+	color: #666;
+}
+#content .recent_projects P
+{
+	width: 90%;
+	font-size: 1em;
+}
