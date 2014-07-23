@@ -9,6 +9,10 @@ HTML, BODY
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+.body-indent
+{
+	margin: 0.5em 40px;
+}
 #wrapper
 {
 	margin: 0 auto;
@@ -178,4 +182,19 @@ HTML, BODY
 .project_page .project_items TD
 {
 	line-height: 35px;
+}
+.user_settings .label
+{
+	text-align: right;
+	padding-right: 20px;
+	font-weight: 600;
+}
+.user_settings TD
+{
+	line-height: 35px;
+}
+.user_settings .error
+{
+	color: #FF0000;
+	padding-left: 15px;
 }
