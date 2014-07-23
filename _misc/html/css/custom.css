@@ -145,3 +145,37 @@ HTML, BODY
 	float: right;
 	width: 30%;
 }
+.project_page FORM
+{
+	margin: 0 1.3em;
+}
+.project_page FORM INPUT
+{
+	width: 100%;
+	padding: 8px;
+}
+.project_page .project_items
+{
+	margin: 0.5em 1.3em;
+	width: 100%;
+	float: left;
+}
+.project_page .project_items .complete LABEL
+{
+	text-decoration: line-through;
+	color: #999;
+}
+.project_page .project_items .checkbox
+{
+	width: 35px;
+	text-align: center;
+}
+.project_page .project_items TR
+{
+	border: 1px solid #999;
+	background: #FFF;
+}
+.project_page .project_items TD
+{
+	line-height: 35px;
+}
