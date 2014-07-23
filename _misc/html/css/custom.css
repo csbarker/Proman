@@ -189,9 +189,19 @@ HTML, BODY
 	padding-right: 20px;
 	font-weight: 600;
 }
+.user_settings INPUT
+{
+	padding: 8px;
+	width: 290px;
+}
+.user_settings BUTTON
+{
+	padding: 8px;
+}
 .user_settings TD
 {
 	line-height: 35px;
+	padding-bottom: 8px;
 }
 .user_settings .error
 {
