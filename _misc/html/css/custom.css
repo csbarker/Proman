@@ -1,6 +1,13 @@
+/*BASE*/
 HTML, BODY
 {
 	height: 100%;
+}
+.text-overflow
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 #wrapper
 {
@@ -10,6 +17,7 @@ HTML, BODY
 #sidebar, #content
 {
 	float: left;
+	overflow: auto;
 }
 #sidebar
 {
@@ -99,34 +107,41 @@ HTML, BODY
 	font-size: 30px;
 	color: #666;
 }
-#content .recent_projects
+/*CUSTOM*/
+#recent_projects
 {
 	list-style: none;
 }
-#content .recent_projects IMG
+#recent_projects .title, #recent_projects .date
 {
-	width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
-#content .recent_projects LI
+#recent_projects IMG
+{
+	width: 100%;
+}
+#recent_projects LI
 {
 	float: left;
-	width: 33%;
+	width: 30%;
+	margin-right: 3%;
 }
-#content .recent_projects .brief
+#recent_projects .brief
 {
 	margin-top: 1em;
+	width: 100%;
+	display: inline-block;
 }
-#content .recent_projects .title
+#recent_projects .title
 {
-	font-weight: 600;
+	width: 68%;
+	float: left;
 }
-#content .recent_projects .date
+#recent_projects .date
 {
-	margin-left: 5px;
 	color: #666;
-}
-#content .recent_projects P
-{
-	width: 90%;
-	font-size: 1em;
+	float: right;
+	width: 30%;
 }
