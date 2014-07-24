@@ -236,22 +236,22 @@ TABLE A
 {
 	text-align: center;
 }
-#admin_users TABLE
+.admin_table_list
 {
 	width: 100%;
 }
-#admin_users TH
+.admin_table_list TH
 {
 	background: #CCC;
 	color: #333;
 	text-align: left;
 	padding: 8px;
 }
-#admin_users TD
+.admin_table_list TD
 {
 	padding: 5px;
 }
-#admin_users .username
+.admin_table_list .username, .admin_table_list .title
 {
 	padding-left: 1.5em;
 }
