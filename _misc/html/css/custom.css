@@ -28,6 +28,10 @@ TABLE TD
 	line-height: 35px;
 	padding-bottom: 8px;
 }
+TABLE A
+{
+	color: #F33030;
+}
 #wrapper
 {
 	margin: 0 auto;
@@ -222,11 +226,6 @@ TABLE TD
 {
 	padding-right: 20px;
 }
-#admin_dashboard A
-{
-	color: #111;
-	color: #F33030;
-}
 #admin_dashboard TH
 {
 	text-align: left;
@@ -236,4 +235,23 @@ TABLE TD
 #admin_dashboard .project_col
 {
 	text-align: center;
+}
+#admin_users TABLE
+{
+	width: 100%;
+}
+#admin_users TH
+{
+	background: #CCC;
+	color: #333;
+	text-align: left;
+	padding: 8px;
+}
+#admin_users TD
+{
+	padding: 5px;
+}
+#admin_users .username
+{
+	padding-left: 1.5em;
 }
