@@ -13,6 +13,21 @@ HTML, BODY
 {
 	margin: 0.5em 40px;
 }
+.half-and-half .half
+{
+	float: left;
+	width: 45%;
+	margin-left: 3%;
+}
+.half-and-half .last
+{
+	margin-right: 3%;
+}
+TABLE TD
+{
+	line-height: 35px;
+	padding-bottom: 8px;
+}
 #wrapper
 {
 	margin: 0 auto;
@@ -179,10 +194,6 @@ HTML, BODY
 	border: 1px solid #999;
 	background: #FFF;
 }
-.project_page .project_items TD
-{
-	line-height: 35px;
-}
 .user_settings .label
 {
 	text-align: right;
@@ -198,13 +209,31 @@ HTML, BODY
 {
 	padding: 8px;
 }
-.user_settings TD
-{
-	line-height: 35px;
-	padding-bottom: 8px;
-}
 .user_settings .error
 {
 	color: #FF0000;
 	padding-left: 15px;
+}
+#admin_dashboard .half IMG
+{
+	width: 100%;
+}
+#admin_dashboard .image
+{
+	padding-right: 20px;
+}
+#admin_dashboard A
+{
+	color: #111;
+	color: #F33030;
+}
+#admin_dashboard TH
+{
+	text-align: left;
+	color: #999;
+	padding-bottom: 16px;
+}
+#admin_dashboard .project_col
+{
+	text-align: center;
 }
